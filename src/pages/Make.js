@@ -1,18 +1,17 @@
 import "./Make.css";
 import gf from "./../img/gf.png";
-import { useRef, useState } from "react";
+import { useRef } from "react";
 
 function Make() {
   const fromRef = useRef();
   const toRef = useRef();
-  const [giftLink, setGiftLink] = useState();
 
   const makeLink = () => {
     if (fromRef.current && toRef.current) {
       const from = fromRef.current.value;
       const to = toRef.current.value;
 
-      const link = `http://localhost:3000/gift?from=${from}&to=${to}`;
+      const link = `https://winterlood-christmas.web.app/gift?from=${from}&to=${to}`;
       window.navigator.clipboard.writeText(link).then(() => {
         alert("링크가 복사되었어요");
       });
