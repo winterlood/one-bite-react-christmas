@@ -1,0 +1,52 @@
+.Make {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.Make .top_section {
+}
+
+.Make .top_section .one {
+  font-size: 40px;
+}
+
+.Make .input_section {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.Make .input_section .input_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  gap: 10px;
+}
+
+.Make .input_section .input_box .label {
+  color: rgb(200, 200, 200);
+  font-size: 16px;
+}
+
+.Make .input_section .input_box input {
+  height: 40px;
+  width: 250px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-family: kb;
+  font-size: 20px;
+}
+
+.Make .input_section .input_box .button {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+}

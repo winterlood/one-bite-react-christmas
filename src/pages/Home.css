@@ -1,0 +1,44 @@
+.Home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.Home .top_section {
+  text-align: center;
+}
+
+.Home .top_section .one {
+  font-size: 20px;
+}
+
+.Home .top_section .two {
+  font-size: 40px;
+}
+
+.Home .top_section .three {
+  font-size: 20px;
+  color: #c1cbdf;
+}
+
+.Home .letter_section {
+  font-size: 18px;
+}
+
+.Home .button_section {
+}
+
+.Home .button_section .button {
+  display: inline-block;
+  cursor: pointer;
+  min-width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  background-color: #525a6c;
+  font-size: 20px;
+}

@@ -1,0 +1,66 @@
+.Gift {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: center;
+}
+
+.Gift .top_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Gift .top_section .top_item {
+  text-align: center;
+}
+
+.Gift .top_section .top_item .label {
+  font-size: 18px;
+  color: rgb(200, 200, 200);
+}
+
+.Gift .top_section .top_item .value {
+  font-size: 30px;
+}
+
+.Gift .prize_section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Gift .prize_section .label {
+  font-size: 20px;
+}
+
+.Gift .prize_section .value {
+  font-size: 30px;
+}
+
+.Gift .prize_section .copy {
+  color: rgb(200, 200, 200);
+}
+
+.Gift .copy_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Gift .copy_section span {
+  display: inline-block;
+  cursor: pointer;
+  width: 200px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  background-color: #525a6c;
+  font-size: 20px;
+}
